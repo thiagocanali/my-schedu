@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import path from 'path'
 
 export default defineConfig({
-  base: '/my-schedu/',  // <— aqui! use exatamente o nome do repo
+  base: '/my-schedu/',   
   plugins: [vue()],
   resolve: {
     alias: {
